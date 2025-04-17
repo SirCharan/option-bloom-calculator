@@ -1,0 +1,65 @@
+# Option Premium Calculator Documentation
+
+## Overview
+The Option Premium Calculator is a sophisticated web-based tool designed to calculate option premiums and Greeks using the Black-Scholes model. It provides real-time calculations for various cryptocurrency options, including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Cardano (ADA), Polygon (MATIC), Base (BASE), and Arbitrum (ARB).
+
+## Key Features
+1. Real-time option premium calculation
+2. Greeks calculation (Delta, Gamma, Theta, Vega, Rho)
+3. Support for both call and put options
+4. Integration with Deribit's DVOL for real-time volatility data
+5. Interactive payoff diagram visualization
+6. Multiple time-to-expiry input methods (date picker and duration)
+7. Real-time cryptocurrency price updates via CoinGecko API
+
+## Technical Implementation
+- Built with React and TypeScript
+- Uses the Black-Scholes model for calculations
+- Implements WebSocket connections for real-time data
+- Responsive design with mobile support
+- Modern UI components with animations
+
+## Use Cases
+1. Options traders can use this tool to:
+   - Calculate option premiums before placing trades
+   - Understand option Greeks and their impact
+   - Visualize potential payoffs
+   - Compare different strike prices and expiry dates
+
+2. Educational purposes:
+   - Learn about options pricing
+   - Understand the Black-Scholes model
+   - Study the relationship between different option parameters
+
+3. Risk management:
+   - Calculate potential profits and losses
+   - Analyze option sensitivities
+   - Plan hedging strategies
+
+## Integration Points
+- CoinGecko API for real-time cryptocurrency prices
+- Deribit WebSocket API for DVOL data
+- Black-Scholes model implementation for calculations
+
+## SEO Keywords
+option calculator, black-scholes calculator, crypto options, option premium calculator, options greeks calculator, bitcoin options, ethereum options, solana options, cardano options, polygon options, base options, arbitrum options, options trading, options pricing, payoff diagram, implied volatility, dvol, deribit, coingecko
+
+## Target Audience
+- Cryptocurrency options traders
+- Financial analysts
+- Students learning about options
+- Risk management professionals
+- Quantitative analysts
+
+## Technical Requirements
+- Modern web browser
+- Internet connection for real-time data
+- JavaScript enabled
+- WebSocket support
+
+## Related Tools and Resources
+- Deribit Exchange
+- CoinGecko
+- Black-Scholes Model
+- Options Greeks
+- Payoff Diagrams 

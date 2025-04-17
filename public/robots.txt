@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /llms.txt
+Allow: /sitemap.xml
+
+# Disallow crawling of API endpoints and sensitive data
+Disallow: /api/
+Disallow: /private/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://option-premium-calculator.vercel.app/sitemap.xml
